@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # === Config ===
-BOT_TOKEN = os.getenv("BOT_TOKEN")  # Set this in your .env or Render env
-CHAT_ID = os.getenv("CHAT_ID")      # Your Telegram user/channel ID
+BOT_TOKEN = os.getenv(8027558655:AAF1Idgdbnrymg68srXuUrcHHI6IVvaeiTk)  # Set this in your .env or Render env
+CHAT_ID = os.getenv(Newsbreaknb_bot)      # Your Telegram user/channel ID
 RSS_FEED_URL = 'https://mylolowcountry.com/feed/'
 CHECK_INTERVAL = 300  # Check every 5 minutes
 
