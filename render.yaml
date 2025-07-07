@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: telegram-feed-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        fromEnvVar: BOT_TOKEN
+      - key: CHAT_ID
+        fromEnvVar: CHAT_ID
